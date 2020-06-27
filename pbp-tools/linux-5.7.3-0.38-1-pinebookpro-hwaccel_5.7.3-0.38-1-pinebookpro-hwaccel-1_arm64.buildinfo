@@ -1,0 +1,159 @@
+Format: 1.0
+Source: linux-5.7.3-0.38-1-pinebookpro-hwaccel
+Binary: linux-image-5.7.3-0.38-1-pinebookpro-hwaccel linux-headers-5.7.3-0.38-1-pinebookpro-hwaccel linux-libc-dev
+Architecture: arm64
+Version: 5.7.3-0.38-1-pinebookpro-hwaccel-1
+Checksums-Md5:
+ 8365e45545eab8f6859fc659ab8111cb 7285892 linux-headers-5.7.3-0.38-1-pinebookpro-hwaccel_5.7.3-0.38-1-pinebookpro-hwaccel-1_arm64.deb
+ 790210b52dd2e88397bd79b5ad44ae1e 34485380 linux-image-5.7.3-0.38-1-pinebookpro-hwaccel_5.7.3-0.38-1-pinebookpro-hwaccel-1_arm64.deb
+ 2eac375d644ec9053ec5c43b0ea699f5 1075396 linux-libc-dev_5.7.3-0.38-1-pinebookpro-hwaccel-1_arm64.deb
+Checksums-Sha1:
+ 98968e19f6decdbc03515a53c5fcf08387cb68cc 7285892 linux-headers-5.7.3-0.38-1-pinebookpro-hwaccel_5.7.3-0.38-1-pinebookpro-hwaccel-1_arm64.deb
+ 06c418f1c52c6f1fbf9d9a97d2740f9c09e1cf9c 34485380 linux-image-5.7.3-0.38-1-pinebookpro-hwaccel_5.7.3-0.38-1-pinebookpro-hwaccel-1_arm64.deb
+ cf0cb665b7c5a4f33306e26cdfaf2ff8f315e871 1075396 linux-libc-dev_5.7.3-0.38-1-pinebookpro-hwaccel-1_arm64.deb
+Checksums-Sha256:
+ 4dbf64bf11e795e1df503f13f208816afcf74ef4231ce6fa6affedf3f3a2f2ae 7285892 linux-headers-5.7.3-0.38-1-pinebookpro-hwaccel_5.7.3-0.38-1-pinebookpro-hwaccel-1_arm64.deb
+ 5d0449f3dfbfe07970005085ae48611fd52b9c422aee5300afa3a7d854a326a2 34485380 linux-image-5.7.3-0.38-1-pinebookpro-hwaccel_5.7.3-0.38-1-pinebookpro-hwaccel-1_arm64.deb
+ 591dd1f95935665e585c50baf105da1218687d3c186c08a1d20b5cfd3f1a8ef6 1075396 linux-libc-dev_5.7.3-0.38-1-pinebookpro-hwaccel-1_arm64.deb
+Build-Origin: Debian
+Build-Architecture: amd64
+Build-Date: Wed, 17 Jun 2020 18:48:44 -0700
+Build-Tainted-By:
+ merged-usr-via-symlinks
+ usr-local-has-libraries
+ usr-local-has-programs
+Installed-Build-Depends:
+ base-files (= 11),
+ base-passwd (= 3.5.47),
+ bash (= 5.0-6),
+ bc (= 1.07.1-2+b2),
+ binutils (= 2.34-8),
+ binutils-common (= 2.34-8),
+ binutils-x86-64-linux-gnu (= 2.34-8),
+ bison (= 2:3.6.3+dfsg-1),
+ bsdutils (= 1:2.35.2-2),
+ build-essential (= 12.8),
+ bzip2 (= 1.0.8-3),
+ coreutils (= 8.30-3+b1),
+ cpio (= 2.13+dfsg-2),
+ cpp (= 4:9.2.1-3.1),
+ cpp-9 (= 9.3.0-13),
+ dash (= 0.5.10.2-7),
+ debconf (= 1.5.74),
+ debianutils (= 4.11),
+ diffutils (= 1:3.7-3),
+ dpkg (= 1.19.7),
+ dpkg-dev (= 1.19.7),
+ findutils (= 4.7.0-1),
+ flex (= 2.6.4-8),
+ g++ (= 4:9.2.1-3.1),
+ g++-9 (= 9.3.0-13),
+ gawk (= 1:5.0.1+dfsg-1),
+ gcc (= 4:9.2.1-3.1),
+ gcc-10-base (= 10.1.0-3),
+ gcc-9 (= 9.3.0-13),
+ gcc-9-base (= 9.3.0-13),
+ grep (= 3.4-1),
+ gzip (= 1.10-2),
+ hostname (= 3.23),
+ init-system-helpers (= 1.57),
+ install-info (= 6.7.0.dfsg.2-5),
+ kmod (= 27+20200310-2),
+ libacl1 (= 2.2.53-8),
+ libasan5 (= 9.3.0-13),
+ libatomic1 (= 10.1.0-3),
+ libattr1 (= 1:2.4.48-5),
+ libaudit-common (= 1:2.8.5-3),
+ libaudit1 (= 1:2.8.5-3+b1),
+ libbinutils (= 2.34-8),
+ libblkid1 (= 2.35.2-2),
+ libbz2-1.0 (= 1.0.8-3),
+ libc-bin (= 2.30-8),
+ libc-dev-bin (= 2.30-8),
+ libc6 (= 2.30-8),
+ libc6-dev (= 2.30-8),
+ libcap-ng0 (= 0.7.9-2.2),
+ libcc1-0 (= 10.1.0-3),
+ libcrypt-dev (= 1:4.4.16-1),
+ libcrypt1 (= 1:4.4.16-1),
+ libctf-nobfd0 (= 2.34-8),
+ libctf0 (= 2.34-8),
+ libdb5.3 (= 5.3.28+dfsg1-0.6),
+ libdebconfclient0 (= 0.252),
+ libdpkg-perl (= 1.19.7),
+ libgcc-9-dev (= 9.3.0-13),
+ libgcc-s1 (= 10.1.0-3),
+ libgcrypt20 (= 1.8.5-5),
+ libgdbm-compat4 (= 1.18.1-5),
+ libgdbm6 (= 1.18.1-5),
+ libgmp10 (= 2:6.2.0+dfsg-6),
+ libgomp1 (= 10.1.0-3),
+ libgpg-error0 (= 1.38-1),
+ libisl22 (= 0.22.1-1),
+ libitm1 (= 10.1.0-3),
+ libkmod2 (= 27+20200310-2),
+ liblsan0 (= 10.1.0-3),
+ liblz4-1 (= 1.9.2-2),
+ liblzma5 (= 5.2.4-1+b1),
+ libmount1 (= 2.35.2-2),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.2-1),
+ libncurses6 (= 6.2-1),
+ libpam-modules (= 1.3.1-5),
+ libpam-modules-bin (= 1.3.1-5),
+ libpam-runtime (= 1.3.1-5),
+ libpam0g (= 1.3.1-5),
+ libpcre2-8-0 (= 10.34-7),
+ libpcre3 (= 2:8.39-12+b1),
+ libperl5.30 (= 5.30.3-4),
+ libpopt0 (= 1.16-14),
+ libquadmath0 (= 10.1.0-3),
+ libreadline8 (= 8.0-4),
+ libselinux1 (= 3.0-1+b3),
+ libsigsegv2 (= 2.12-2),
+ libsmartcols1 (= 2.35.2-2),
+ libssl-dev (= 1.1.1g-1),
+ libssl1.1 (= 1.1.1g-1),
+ libstdc++-9-dev (= 9.3.0-13),
+ libstdc++6 (= 10.1.0-3),
+ libsystemd0 (= 245.6-1),
+ libtinfo6 (= 6.2-1),
+ libtsan0 (= 10.1.0-3),
+ libubsan1 (= 10.1.0-3),
+ libudev1 (= 245.6-1),
+ libuuid1 (= 2.35.2-2),
+ linux-libc-dev (= 5.6.14-2),
+ login (= 1:4.8.1-1),
+ lsb-base (= 11.1.0),
+ m4 (= 1.4.18-4),
+ make (= 4.3-3),
+ mawk (= 1.3.4.20200120-2),
+ ncurses-base (= 6.2-1),
+ ncurses-bin (= 6.2-1),
+ patch (= 2.7.6-6),
+ perl (= 5.30.3-4),
+ perl-base (= 5.30.3-4),
+ perl-modules-5.30 (= 5.30.3-4),
+ readline-common (= 8.0-4),
+ rsync (= 3.1.3-8),
+ sed (= 4.7-1),
+ sysvinit-utils (= 2.96-3),
+ tar (= 1.30+dfsg-7),
+ util-linux (= 2.35.2-2),
+ xz-utils (= 5.2.4-1+b1),
+ zlib1g (= 1:1.2.11.dfsg-2)
+Environment:
+ AR="aarch64-none-linux-gnu-ar"
+ AWK="awk"
+ CC="aarch64-none-linux-gnu-gcc"
+ CPP="aarch64-none-linux-gnu-gcc -E"
+ DEB_BUILD_OPTIONS="parallel=8"
+ LANG="en_US.UTF-8"
+ LC_COLLATE="C"
+ LC_NUMERIC="C"
+ LD="aarch64-none-linux-gnu-ld"
+ LEX="flex"
+ MAKE="make"
+ MAKEFLAGS="rR -j8 --jobserver-auth=3,4 --no-print-directory -- ARCH=arm64 CROSS_COMPILE=aarch64-none-linux-gnu- INITRD=yes KBUILD_IMAGE=arch/arm64/boot/Image"
+ SOURCE_DATE_EPOCH="1592443446"
+ YACC="bison"
