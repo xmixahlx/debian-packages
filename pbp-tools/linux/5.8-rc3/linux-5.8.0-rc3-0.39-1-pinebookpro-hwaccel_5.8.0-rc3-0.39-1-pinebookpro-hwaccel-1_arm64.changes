@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 29 Jun 2020 03:01:20 -0700
+Source: linux-5.8.0-rc3-0.39-1-pinebookpro-hwaccel
+Binary: linux-headers-5.8.0-rc3-0.39-1-pinebookpro-hwaccel linux-image-5.8.0-rc3-0.39-1-pinebookpro-hwaccel linux-libc-dev
+Architecture: arm64
+Version: 5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1
+Distribution: sid
+Urgency: low
+Maintainer: mike <mike@gurney>
+Changed-By: mike <mike@gurney>
+Description:
+ linux-headers-5.8.0-rc3-0.39-1-pinebookpro-hwaccel - Linux kernel headers for 5.8.0-rc3-0.39-1-pinebookpro-hwaccel on
+ linux-image-5.8.0-rc3-0.39-1-pinebookpro-hwaccel - Linux kernel, version 5.8.0-rc3-0.39-1-pinebookpro-hwaccel
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-5.8.0-rc3-0.39-1-pinebookpro-hwaccel (5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1) sid; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ e0f9bce5a83a794cfd48793ff9c102552eaa995d 5255 linux-5.8.0-rc3-0.39-1-pinebookpro-hwaccel_5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1_arm64.buildinfo
+ 664d846d51f4bbf66c5e7f0ea94797c912c14917 7381876 linux-headers-5.8.0-rc3-0.39-1-pinebookpro-hwaccel_5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1_arm64.deb
+ 5af85d543f1b8fc9343efab10586b0c150b16c84 35001400 linux-image-5.8.0-rc3-0.39-1-pinebookpro-hwaccel_5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1_arm64.deb
+ 933b6dadb328222f6c018143d366984a9c627cf4 1091844 linux-libc-dev_5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1_arm64.deb
+Checksums-Sha256:
+ 19bd19c1677abeb7a53e5d6258cd07e8cd41ced195089f2896ee6db833237110 5255 linux-5.8.0-rc3-0.39-1-pinebookpro-hwaccel_5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1_arm64.buildinfo
+ 927adbaf56636af5b93d39e17d27009053b0ec44c978cefbe6d1b79c268e8e14 7381876 linux-headers-5.8.0-rc3-0.39-1-pinebookpro-hwaccel_5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1_arm64.deb
+ e74382d4dfbca67b6145398780a9dfb04422e8c04710d7a7e2f5310d936ee079 35001400 linux-image-5.8.0-rc3-0.39-1-pinebookpro-hwaccel_5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1_arm64.deb
+ 0bf2cf1dba1455ef1ec0fc90097b38b08742ad6fdedb2dcbadd8eeba41c18837 1091844 linux-libc-dev_5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1_arm64.deb
+Files:
+ 528e15a91f66751186ff50ae2462bf1f 5255 kernel optional linux-5.8.0-rc3-0.39-1-pinebookpro-hwaccel_5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1_arm64.buildinfo
+ fe84143e33f79fed43f6c3a4c8f2dd5d 7381876 kernel optional linux-headers-5.8.0-rc3-0.39-1-pinebookpro-hwaccel_5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1_arm64.deb
+ da3c95145f5d32559a230898def87333 35001400 kernel optional linux-image-5.8.0-rc3-0.39-1-pinebookpro-hwaccel_5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1_arm64.deb
+ 60e5f374d56f33be4f3d6049224c4a56 1091844 devel optional linux-libc-dev_5.8.0-rc3-0.39-1-pinebookpro-hwaccel-1_arm64.deb
