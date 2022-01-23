@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Sun, 16 Jan 2022 13:50:44 -0800
+Source: linux-upstream
+Binary: linux-headers-5.16.1-43-pinebookpro-hwaccel linux-image-5.16.1-43-pinebookpro-hwaccel linux-libc-dev
+Architecture: arm64
+Version: 5.16.1-43-pinebookpro-hwaccel-1
+Distribution: sid
+Urgency: low
+Maintainer: mike <mike@shuksan>
+Changed-By: mike <mike@shuksan>
+Description:
+ linux-headers-5.16.1-43-pinebookpro-hwaccel - Linux kernel headers for 5.16.1-43-pinebookpro-hwaccel on arm64
+ linux-image-5.16.1-43-pinebookpro-hwaccel - Linux kernel, version 5.16.1-43-pinebookpro-hwaccel
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-upstream (5.16.1-43-pinebookpro-hwaccel-1) sid; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 586398a931b9e5d663bb89e9575c5ebc1dac1194 7914036 linux-headers-5.16.1-43-pinebookpro-hwaccel_5.16.1-43-pinebookpro-hwaccel-1_arm64.deb
+ 9ba540a8e79a44fb0cb3b0aa6b38e6f6c691862f 32389432 linux-image-5.16.1-43-pinebookpro-hwaccel_5.16.1-43-pinebookpro-hwaccel-1_arm64.deb
+ 7dc0c36390b5873c75fa2d1dcea8d326f9b51a81 1188608 linux-libc-dev_5.16.1-43-pinebookpro-hwaccel-1_arm64.deb
+ 0d99431e49ab666e570aea5dd903474cf550f3ce 5646 linux-upstream_5.16.1-43-pinebookpro-hwaccel-1_arm64.buildinfo
+Checksums-Sha256:
+ 9387717b017b57f22ae4e27c4589d568bae2f06291191aef537b1b85f34ec2e1 7914036 linux-headers-5.16.1-43-pinebookpro-hwaccel_5.16.1-43-pinebookpro-hwaccel-1_arm64.deb
+ 56321b79816486622f2dc8119ff57078b46985e598aea2db349f252554834171 32389432 linux-image-5.16.1-43-pinebookpro-hwaccel_5.16.1-43-pinebookpro-hwaccel-1_arm64.deb
+ d30d333dd0215ae7284d49a0cef208be1a764bd4e5611f9cf45f0615250bb97b 1188608 linux-libc-dev_5.16.1-43-pinebookpro-hwaccel-1_arm64.deb
+ 4d163ff8f14ef785e86c09275f253d1dcfea5fd0bc92a44ff79dc4b28edca87d 5646 linux-upstream_5.16.1-43-pinebookpro-hwaccel-1_arm64.buildinfo
+Files:
+ 1add4d7a25a17d4f1ce2c926a46ffc6e 7914036 kernel optional linux-headers-5.16.1-43-pinebookpro-hwaccel_5.16.1-43-pinebookpro-hwaccel-1_arm64.deb
+ 3f02bf75bfe7e8900c31f35ff65d26c4 32389432 kernel optional linux-image-5.16.1-43-pinebookpro-hwaccel_5.16.1-43-pinebookpro-hwaccel-1_arm64.deb
+ e69226a3d3f57b37f86e3251159ba04d 1188608 devel optional linux-libc-dev_5.16.1-43-pinebookpro-hwaccel-1_arm64.deb
+ a6324f191b9e85f2b9d729d9a49ff443 5646 kernel optional linux-upstream_5.16.1-43-pinebookpro-hwaccel-1_arm64.buildinfo
